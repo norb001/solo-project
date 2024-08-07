@@ -1,0 +1,83 @@
+.hero {
+  background-image: url('./img/image\ 2.png'); /* Use the path to your image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Adjust the height as needed */
+  display: flex;
+  align-items: center; /* Vertically centers the content */
+  justify-content: center; /* Horizontally centers the content */
+  color: white; /* Makes text color white for better readability */
+  text-align: center; /* Centers the text */
+}
+
+.hero .container {
+  background: rgba(0, 0, 0, 0.5); /* Optional: Adds a dark overlay to improve text readability */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.services {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.services .col-md-4 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services .col-md-4 i {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.read-more {
+  margin-top: 15px;
+}
+
+.cta {
+  background-color: #007bff;
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.cta .btn {
+  background-color: white;
+  color: #007bff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer .text-uppercase {
+  text-transform: uppercase;
+}
+
+footer .font-weight-bold {
+  font-weight: bold;
+}
+
+footer .list-inline-item a {
+  color: inherit;
+}
+
+footer .list-inline-item a:hover {
+  text-decoration: none;
+}
+
+footer hr {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
